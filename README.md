@@ -1,32 +1,20 @@
 # pattern-lock
 
-FIXME: description
+Takes a sequence of numbers representing dots to connect and determines
+if it represents a valid pattern.
 
-## Installation
-
-Download from http://example.com/FIXME.
+Android has a pattern lock screen with 9 dots:
+1 2 3
+4 5 6
+7 8 9
+Dots may be connected in any order, but:
+* Each dot may only be used once
+* Dots must be connected with straight lines
+* A dot may not be crossed without being used
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar pattern-lock-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Use "lein run" to run test cases.
 
 ## License
 
